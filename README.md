@@ -1,3 +1,3 @@
-# This repository is for DLGFA model implementation.
+# This repository is for ITM-VAE model implementation.
 
-For DLGFA model https://arxiv.org/abs/2005.05210
+
