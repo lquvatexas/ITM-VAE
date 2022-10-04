@@ -1,4 +1,4 @@
-"""dlgfa on mocap data
+"""ITMVAE on mocap data
 
 * Point estimates on the sparse weight parameters.
 * Proximal gradient steps are taken to handle the group lasso penalty.
@@ -17,7 +17,7 @@ import torchvision
 from lib import mocap_data
 from lib.distributions import Normal
 from lib.models import BayesianGroupLassoGenerator, NormalNet
-from lib.dlgfa import NormalPriorTheta, dlgfa
+from lib.itmvae import NormalPriorTheta, itmvae
 from lib.utils import Lambda
 
 

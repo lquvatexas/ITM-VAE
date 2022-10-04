@@ -23,7 +23,7 @@ class NormalPriorTheta(object):
       for param in gen.parameters()
     )
 
-class dlgfa(object):
+class itmvae(object):
     def __init__(
       self,
       inference_model,

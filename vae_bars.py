@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 12 15:16:26 2020
 
-@author: luke
-"""
 import torch
 from torch.autograd import Variable
 import numpy as np

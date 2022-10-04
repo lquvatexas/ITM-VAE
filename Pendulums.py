@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Apr 20 12:08:28 2020
 
-@author: luke
-"""
 
 import math
 import numpy as np
@@ -25,7 +21,7 @@ import torchvision
 
 from lib.distributions import Normal
 from lib.models import BayesianGroupLassoGenerator, NormalNet
-from lib.dlgfa import NormalPriorTheta, dlgfa
+from lib.itmvae import NormalPriorTheta, itmvae
 from lib.utils import Lambda
 
 # Initial and end valus
